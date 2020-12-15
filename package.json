@@ -1,0 +1,17 @@
+{
+  "name": "netlify-tito-widget",
+  "version": "0.0.1",
+  "description": "Deploy the Tito widget to Netlify",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./scripts/generate",
+    "dev": "serve ./dist"
+  },
+  "keywords": [],
+  "author": "Team Tito",
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "^9.0.1",
+    "serve": "^11.3.2"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ TITLE }}</title>
+    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1.1" />
+    <script src="https://js.tito.io/v1" async></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript">
+      TitoDevelopmentMode = true;
+    </script>
+  </head>
+  <body class="flex flex-col h-screen justify-between">
+    <header class="p-10">
+      <h1 class="font-bold text-3xl">{{ TITLE }}</h1>
+    </header>
+    <main class="p-10">
+      {{ WIDGET }}
+    </main>
+    <footer class="p-5 bg-gray-100 text-right">
+      Hosted by
+      <a
+        href="https://ti.to/{{ EVENT }}"
+        class="text-blue-500 underline hover:text-blue-700"
+        >Tito</a
+      >
+    </footer>
+  </body>
+</html>

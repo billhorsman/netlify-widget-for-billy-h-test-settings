@@ -1,0 +1,3 @@
+[template.environment]
+  TITLE = "Awesome Conf"
+  EVENT = "demo/awesomeconf"
